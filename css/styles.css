@@ -9,12 +9,6 @@
   --grey-bgc: #f5f4fa;
 }
 
-/* * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-} */
-
 body {
   font-family: var(--main-font);
   color: var(--main-colorFont);
@@ -32,7 +26,30 @@ body {
 }
 
 .navigation-logo span {
-color: var(--main-color);
+  color: var(--main-color);
+}
+
+.navigation-list-link,
+.header-address-mail,
+.header-address-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:active,
+.header-address:hover,
+.header-address:active {
+  color: var(--main-color);
+}
+
+.header-address-mail,
+.header-address-phone {
+  color: var(--second-colorFont);
 }
 
 /* ========== END HEADER ========== */
