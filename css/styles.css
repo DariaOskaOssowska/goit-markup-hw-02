@@ -1,6 +1,21 @@
-body {
-  font-family: 'Roboto', sans-serif;
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --second-font: 'Raleway', sans-serif;
+  --main-color: #2196f3;
+  --main-colorFont: #212121;
+  --second-colorFont: #757575;
+  --main-bgc: #e5e5e5;
+  --dark-bgc: #2f303a;
+  --grey-bgc: #f5f4fa;
 }
 
-/* czczionka dla logo */
-/* font-family: 'Raleway', sans-serif;  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-colorFont);
+}
