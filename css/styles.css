@@ -9,13 +9,30 @@
   --grey-bgc: #f5f4fa;
 }
 
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+} */
 
 body {
   font-family: var(--main-font);
   color: var(--main-colorFont);
 }
+
+/* ========== HEADER ========== */
+.navigation-logo {
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--main-colorFont);
+}
+
+.navigation-logo span {
+color: var(--main-color);
+}
+
+/* ========== END HEADER ========== */
