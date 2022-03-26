@@ -12,7 +12,8 @@
 }
 
 body {
-  font-family: var(--main-font);
+  font-family: var(--main-font), 'Raleway', sans-serif;
+  color: var(--main-colorFont);
 }
 
 /* ========= COMPONENTS ======== */
@@ -28,7 +29,6 @@ body {
   line-height: 1.143;
   letter-spacing: 0.02em;
   text-decoration: none;
-  cursor: pointer;
 }
 
 .footer {
@@ -127,11 +127,9 @@ body {
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-colorFont);
 }
 
 .hero-description {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -146,7 +144,6 @@ body {
   line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-colorFont);
 }
 /* =======   END ABOUT US ======= */
 
@@ -163,11 +160,9 @@ body {
 }
 .team-third-header-name {
   font-weight: 500;
-  color: var(--main-colorFont);
 }
 
 .team-list-job {
-  font-weight: 400;
   color: var(--second-colorFont);
 }
 /* =======  END OUR TEAM ======== */
@@ -226,16 +221,13 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--main-colorFont);
 }
 
 .portfolio-project-description {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--second-colorFont);
 }
 /* ====  END PORTFOLIO VIEW  ==== */
-
 /* =======  END PORTFOLIO ======= */
