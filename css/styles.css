@@ -8,6 +8,7 @@
   --main-bgc: #e5e5e5;
   --dark-bgc: #2f303a;
   --grey-bgc: #f5f4fa;
+  --light-bgc: #ffffff;
 }
 
 body {
@@ -15,6 +16,9 @@ body {
 }
 
 /* ========= COMPONENTS ======== */
+.header {
+  background-color: var(--light-bgc);
+}
 .navigation-list-link,
 .header-address-mail,
 .header-address-phone {
@@ -70,6 +74,11 @@ body {
   color: var(--main-colorFont);
 }
 
+.header-address-mail,
+.header-address-phone {
+  color: var(--second-colorFont);
+}
+
 .navigation-list-link:hover,
 .navigation-list-link:focus,
 .header-address-mail:hover,
@@ -78,17 +87,13 @@ body {
 .header-address-phone:focus {
   color: var(--main-color);
 }
-
-.header-address-mail,
-.header-address-phone {
-  color: var(--second-colorFont);
-}
 /* ========== END HEADER ========== */
 
 /* ==========   MAIN   ========== */
 /* =======   HERO up side ======= */
 .hero-up-side-bg {
   background-color: var(--dark-bgc);
+  color: var(--third-colorFont);
 }
 
 .hero-main-header {
@@ -98,7 +103,6 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--third-colorFont);
 }
 
 .modal-btn {
@@ -153,8 +157,8 @@ body {
 /* =======   END ABOUT US ======= */
 
 /* =========  OUR TEAM ========== */
-.team-third-header,
-.team-description {
+.team-third-header-name,
+.team-list-job {
   font-size: 16px;
   line-height: 1.888;
   letter-spacing: 0.03em;
@@ -163,12 +167,12 @@ body {
 .team {
   background-color: var(--grey-bgc);
 }
-.team-description {
+.team-third-header-name {
   font-weight: 500;
   color: var(--main-colorFont);
 }
 
-.team-description {
+.team-list-job {
   font-weight: 400;
   color: var(--second-colorFont);
 }
@@ -197,5 +201,8 @@ body {
 /* ========  END FOOTER ========= */
 
 /* =========  PORTFOLIO ========= */
+.navigation-list-link-portfolio {
+  color: var(--main-color);
+}
 
 /* =======  END PORTFOLIO ======= */
